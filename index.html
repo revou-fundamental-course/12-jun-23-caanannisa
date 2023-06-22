@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suhu Converter</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="title">Suhu Converter</h1>
+      </header>
+      <main>
+        <div class="content">
+          <div class="input-section">
+            <label for="celsius-input" class="label">Celsius</label>
+            <input
+              type="number"
+              id="celsius-input"
+              placeholder="Masukkan suhu dalam Celsius"
+            />
+          </div>
+          <div class="button-section">
+            <button id="convert-button">Konversi</button>
+            <button id="reset-button">Reset</button>
+            <button id="reverse-button">Reverse</button>
+          </div>
+          <div class="result-section">
+            <h3>Hasil Konversi</h3>
+            <div class="result-display">
+              <input type="text" id="fahrenheit-input" value="0 °F" readonly />
+            </div>
+            <div class="calculation-display" id="calculation-display"></div>
+          </div>
+        </div>
+        <footer>
+          <p class="footer-text">by Cahya Annisa Fitri - Course RevoU.</p>
+        </footer>
+      </main>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
